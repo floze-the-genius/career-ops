@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.6.2](https://github.com/santifer/career-ops/compare/web-v0.6.1...web-v0.6.2) (2026-08-13)
+
+
+### Bug Fixes
+
+* **deps:** make js-yaml imports work on both 4.x and 5.x ([#2656](https://github.com/santifer/career-ops/issues/2656)) ([6466b18](https://github.com/santifer/career-ops/commit/6466b18382aa2cb9390f5d2425a63ae36bcea085))
+* **deps:** patch both HIGH advisories in web (js-yaml 4.3.1, nanoid 3.3.18) ([a094ec9](https://github.com/santifer/career-ops/commit/a094ec9ddbe8f21e8db6dba87f548532af2a820e))
+* **deps:** raise the js-yaml floor to ^4.3.1 and guard it ([#2767](https://github.com/santifer/career-ops/issues/2767)) ([5b18a96](https://github.com/santifer/career-ops/commit/5b18a960da803477a475a1856138561f83edc035))
+* **keys:** stop the dotted-I fix from collapsing Polish, Lithuanian and Maltese ([5df43e7](https://github.com/santifer/career-ops/commit/5df43e7133745ad814421f2dd4c5afce2e75c0e1))
+* **keys:** stop the Turkish dotted capital from splitting one employer in two ([462d276](https://github.com/santifer/career-ops/commit/462d27653eda17c3305dfe74f2ecdc5b21fb79e6))
+* **scan:** take the shared lock for scan-history.tsv appends ([#2639](https://github.com/santifer/career-ops/issues/2639)) ([8e264c4](https://github.com/santifer/career-ops/commit/8e264c4b24a04fc6f0799b2e5c9a0479ed4e16e0))
+* **web:** finish Unicode company keys for explore + registry ([#2668](https://github.com/santifer/career-ops/issues/2668)) ([c294242](https://github.com/santifer/career-ops/commit/c294242dbb6a78a03bac738f397c568c02316971))
+* **web:** fold Turkish dotted capitals in status keys, and stop hand-copying the state list ([#2786](https://github.com/santifer/career-ops/issues/2786)) ([e1a0961](https://github.com/santifer/career-ops/commit/e1a09616818d2dd84b249a7805078bbfeefae669))
+* **web:** let the pipeline table scroll horizontally instead of clipping on narrow screens ([#2363](https://github.com/santifer/career-ops/issues/2363)) ([632031c](https://github.com/santifer/career-ops/commit/632031c9cb8ae95311a36310bb6cd2713497136c))
+* **web:** prevent Codex run jobs from waiting on stdin ([#1973](https://github.com/santifer/career-ops/issues/1973)) ([9a139a2](https://github.com/santifer/career-ops/commit/9a139a2aac44ae5e8da8e372a587a322ba99f149))
+* **web:** skip {n}-RESERVED.md sentinels when looking up reports ([#1967](https://github.com/santifer/career-ops/issues/1967)) ([5f4842e](https://github.com/santifer/career-ops/commit/5f4842e513fe45092395254ba51bc220676e598a))
+
 ## [0.6.1](https://github.com/santifer/career-ops/compare/web-v0.6.0...web-v0.6.1) (2026-08-10)
 
 
